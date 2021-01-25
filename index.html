@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FastFood</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form name="burger">
+        <fieldset>
+            <legend>РАЗМЕР</legend>
+            <label>
+                <img src="images/large.jpg" alt="large">
+                <input type="radio" name="size" id="" value="large" checked>
+            </label>
+            <label>
+                <img src="images/small.jpg" alt="small">
+                <input type="radio" name="size" id="" value="small">
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>МЯСО</legend>
+            <label>
+                <img src="images/chicken.jpg" alt="chicken">
+                <input type="radio" name="meat" id="" value="chicken" checked>
+            </label>
+            <label>
+                <img src="images/pork.jpg" alt="pork">
+                <input type="radio" name="meat" id="" value="pork">
+            </label>
+            <label>
+                <img src="images/beef.jpg" alt="beef">
+                <input type="radio" name="meat" id="" value="beef" >
+            </label>
+        </fieldset>
+        
+        <fieldset>
+            <legend>ДОБАВКА</legend>
+            <label>
+                <img src="images/cheese.jpg" alt="cheese">
+                <input type="checkbox" name="add" id="" value="cheese">
+            </label>
+            <label>
+                <img src="images/potato.jpg" alt="potato">
+                <input type="checkbox" name="add" id="" value="potato">
+            </label>
+            <label>
+                <img src="images/salad.jpg" alt="salad">
+                <input type="checkbox" name="add" id="" value="salad">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>ТОПИНГ</legend>
+            <label>
+                <img src="images/mayonez.jpg" alt="mayonez">
+                <input type="checkbox" name="topp" id="" value="mayonez">
+            </label>
+            <label>
+                <img src="images/spice.jpg" alt="spice">
+                <input type="checkbox" name="topp" id="" value="spice">
+            </label>
+        </fieldset>
+        <input type="submit" value="Рассчитать" name="calc">
+    </form>
+    <div id="res"></div>
+    <script src="js/script.js"></script>
+</body>
+</html>
